@@ -39,7 +39,7 @@ class m180801_174701_settings extends Migration
             'type' => $this->string(64)->notNull()->defaultValue("")->comment("类型"),
             'title' => $this->string()->notNull()->defaultValue("")->comment("标题"),
             'slug' => $this->string(64)->notNull()->defaultValue("")->comment("标识"),
-            'val' => $this->text()->comment("值"),
+            'data' => $this->text()->comment("值"),
             'description' => $this->string()->null()->comment("描述"),
             'status' => $this->tinyInteger(4)->notNull()->defaultValue(1)->comment("状态"),
             'sort_index' => $this->integer()->defaultValue(0)->comment("排序"),
