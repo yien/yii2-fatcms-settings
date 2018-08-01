@@ -47,7 +47,7 @@ class m180801_174701_settings extends Migration
             'updated_at' => $this->integer(),
         ], $this->tableOptions);
 
-        $this->createIndex("setting_uk", self::TABLE_SETTING, ['name'], true);
+        $this->createIndex("uk_slug", self::TABLE_SETTING, ['slug'], true);
 
     }
 
