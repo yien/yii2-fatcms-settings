@@ -1,0 +1,21 @@
+{
+    "name": "yien/yii2-fatcms-settings",
+    "description": "fatcms settings",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "fatcms",
+            "email": "zhuzhenyu307@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fatcms\\settings\\": ""
+        }
+    }
+}
