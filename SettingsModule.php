@@ -11,4 +11,10 @@ class SettingsModule extends \yii\base\Module
      * @inheritdoc
      */
     public $controllerNamespace = 'fatcms\settings\controllers';
+
+
+    public function init()
+    {
+        parent::init();
+    }
 }
